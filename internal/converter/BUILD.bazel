@@ -20,7 +20,6 @@ go_library(
         "@com_github_iancoleman_strcase//:strcase",
         "@com_github_sirupsen_logrus//:logrus",
         "@com_github_xeipuuv_gojsonschema//:gojsonschema",
-        "@org_golang_google_protobuf//cmd/protoc-gen-go/internal_gengo",
         "@org_golang_google_protobuf//proto",
         "@org_golang_google_protobuf//types/descriptorpb",
         "@org_golang_google_protobuf//types/pluginpb",
