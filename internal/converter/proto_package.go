@@ -93,7 +93,7 @@ componentLoop:
 				continue componentLoop
 			}
 		}
-		c.logger.WithField("component", component).WithField("description", desc.GetName()).Info("no such nested message")
+		c.logger.WithField("component", component).WithField("description", desc.GetName()).Debug("no such nested message")
 		return nil, false
 	}
 	return desc, true
